@@ -22,7 +22,7 @@ jobs:
             - name : terraform init
               id: init 
               run : terraform init
-              working_directory: .Terraform-VPC
+              working_directory: ./Terraform-VPC
             - name : terraform validate
               id: validate 
               run : terraform validate
